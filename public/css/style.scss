@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@mixin flexProps{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wrapper {
+    // height: 100vh;
+     @include flexProps();
+     flex-direction: column;
+     div{
+            height: 300px;
+            width: 500px;
+            // border: 2px solid;
+            @include flexProps();
+            border-radius: 5px;
+            
+     }
+     input{
+        height: 50px;
+        padding:10px;
+        border: none;
+        outline:  none;
+        background-color: #eee;
+         border:  1px solid #eee;
+         margin-right: 10px;
+         border-radius: 3px;
+        //  border: 1px solid;
+
+     }
+     button{
+        height: 50px;
+     }
+     h1{
+    text-align: center;
+    margin: 40px 0;
+}
+}
+
+
+.weatherBox{
+    display: flex;
+    border: 1px solid #eee;
+    flex-direction: column;
+    .weatherBox div{
+        @include flexProps();
+        height: 70px;
+        
+    
+    }
+}

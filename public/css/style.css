@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper div {
+  height: 300px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.wrapper input {
+  height: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: #eee;
+  border: 1px solid #eee;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+.wrapper button {
+  height: 50px;
+}
+.wrapper h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.weatherBox {
+  display: flex;
+  border: 1px solid #eee;
+  flex-direction: column;
+}
+.weatherBox .weatherBox div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}/*# sourceMappingURL=style.css.map */
